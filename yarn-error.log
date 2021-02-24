@@ -1,0 +1,32 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\rafae\AppData\Local\Microsoft\WindowsApps;C:\Users\rafae\AppData\Roaming\npm;C:\Users\rafae\AppData\Local\Yarn\bin;C:\Users\rafae\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.7.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:69:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
